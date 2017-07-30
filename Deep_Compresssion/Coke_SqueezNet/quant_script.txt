@@ -1,0 +1,18 @@
+cd tensorflow
+
+bazel build tensorflow/python/tools:strip_unused
+bazel-bin/tensorflow/python/tools/strip_unused \
+  --input_graph=/home/ubuntu/tensorflow/Your_frozen_graph.pb \
+  --output_graph=/home/ubuntu/tensorflow/Your_rounded_graph.pb \
+  --input_node_names=input_node \
+  --output_node_names=output_node \
+  --input_binary=true
+  
+
+
+bazel build tensorflow/contrib/quantization/tools:quantize_graph
+bazel-bin/tensorflow/contrib/quantization/tools/quantize_graph \
+--input=/home/ubuntu/tensorflow/Your_rounded_graph.pb \
+--output=/home/ubuntu/tensorflow/Your_final_quantized_graph.pb \
+--output_node_names=output_node \
+--mode=weights

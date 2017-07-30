@@ -1,0 +1,3 @@
+Model,Download size(kb),In app size(After extraction)(kb)
+Before pruning,55,71
+After pruning,19,70
