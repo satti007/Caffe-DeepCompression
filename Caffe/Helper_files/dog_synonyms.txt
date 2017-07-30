@@ -1,0 +1,54 @@
+dog
+bull
+husky
+hound
+retriever
+terrier
+schipperke
+Pomeranian
+Great Dane
+setter
+papillon
+collie
+Chihuahua
+pointer
+kelpie
+beagle
+redbone
+Weimaraner
+ridgeback
+spaniel
+Bouviers des Flandres
+groenendael
+poodle
+Mexican hairless
+Rottweiler
+Leonberg
+kuvasz
+whippet
+Doberman
+ Lhasa apso
+boxer
+miniature pinscher
+miniature schnauzer
+bluetick
+Appenzeller
+giant schnauzer
+basenji
+ Cuon alpinus
+Peke
+komondor
+ Cardigan Welsh corgi
+ Alaskan malamute
+Brabancon griffon
+keeshond
+ Pembroke Welsh corgi
+malinois
+chow chow
+ Samoyede
+Great Pyrenees
+EntleBucher
+Shih-Tzu
+standard schnauzer
+Tibetan mastiff
+briard
