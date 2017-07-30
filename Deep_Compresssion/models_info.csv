@@ -1,0 +1,5 @@
+Model,PR,PCR,Pb Size(kb),Pb Size after Z(Kb),Pb Compression,Acc(%)
+U,~60K,,247,228,~8%,98.6
+U+Q,~60K,,71,55,~78%,98.6
+P,~7.5K,~8x,247,56,~78%,98.7
+P+Q,~7.5K,~8x,70,19,~93%,98.7
