@@ -1,11 +1,17 @@
 # Deep Compression
 **Deep Compression on Lenet-5 Model:**
+<p align="center"> 
+<img src="https://github.com/satti007/Caffe-DeepCompression/blob/master/Deep_Compresssion/Plots/net.png">
+</p>
+<p align="center"> 
+Fig 1 :The above image shows the architecture of Lenet5
+</p>
 
-The above image shows the architecture of Lenet-5.
+The **pruning** process we implemented here is based on the the first stage(pruning) in the pipeline of the **Deep Compression** as described in this [paper](https://arxiv.org/pdf/1510.00149.pdf)
 
 **Pruning on (Conv+FC) layers:**
 - The plot shows us the effect of pruning(both FC &amp; Conv Layers) on accuracy.
-- We observe that the accuracy decreases with the increase in the parameters pruned                   (parameters pruned α pruning iteration)
+- We observe that the accuracy decreases with the increase in the parameters pruned (parameters pruned α pruning iteration)
 - This might be as the these conv layers are first two layers and the model may have lost some connections where it learns some important features of the data.
 - So,we decided not prune the conv layers for this model.
 
