@@ -26,6 +26,7 @@ The **pruning** process we implemented here is based on the the first stage(prun
 <p align="center"> 
 <img src="https://github.com/satti007/Caffe-DeepCompression/blob/master/Deep_Compresssion/Plots/2.png">
 </p>
+
 - The plot shows us the effect of pruning(only FC Layers) on accuracy.
 - We observe that the accuracy remains constant with the increase in the parameters pruned.(parameters pruned  αpruning iteration)
 -  This might be as the these FC layers come later in the model architecture and most of these connections might be redundant.
@@ -36,6 +37,7 @@ The **pruning** process we implemented here is based on the the first stage(prun
 <p align="center"> 
 <img src="https://github.com/satti007/Caffe-DeepCompression/blob/master/Deep_Compresssion/Plots/3.png">
 </p>
+
 - Parameters Count-- No.of non-zero parameters in the model
 - Uncompressed -- ~60K parameters
 - Pruned(After 7 iterations) -- ~7.5K parameters and the parameters are reduced by ~8x i.e 87.5%
@@ -45,6 +47,7 @@ The **pruning** process we implemented here is based on the the first stage(prun
 <p align="center"> 
 <img src="https://github.com/satti007/Caffe-DeepCompression/blob/master/Deep_Compresssion/Plots/4.png">
 </p>
+
 - There is no loss in the accuracy of the model after pruning is done.
 
 
@@ -52,6 +55,7 @@ The **pruning** process we implemented here is based on the the first stage(prun
 <p align="center"> 
 <img src="https://github.com/satti007/Caffe-DeepCompression/blob/master/Deep_Compresssion/Plots/5.png">
 </p>
+
 - The headover with the prune masks in the pb file was about 50% but later on we came up with an idea to not include these masks in the protobuf
 
 
@@ -60,11 +64,11 @@ The **pruning** process we implemented here is based on the the first stage(prun
 <img src="https://github.com/satti007/Caffe-DeepCompression/blob/master/Deep_Compresssion/Plots/6.png">
 </p>
 
-## U--Uncompressed
-## P--Pruned(7 iters)
-## Q--Quantization
-## Z--gzip
-## PR--Non-zero parameters PCR--Parameters compression ratio
+### U--Uncompressed
+### P--Pruned(7 iters)
+### Q--Quantization
+### Z--gzip
+### PR--Non-zero parameters PCR--Parameters compression ratio
 
 | **Model** | **PR** | **PCR** | **Pb Size(kb)** | **Pb Size after Z(Kb)** | **Pb Compression** | **Acc(%)** |
 | --- | --- | --- | --- | --- | --- | --- |
