@@ -1,11 +1,13 @@
 # Deep Compression
 **Deep Compression on Lenet-5 Model:**
+
 <p align="center"> 
 <img src="https://github.com/satti007/Caffe-DeepCompression/blob/master/Deep_Compresssion/Plots/net.png">
 </p>
 <p align="center"> 
 Fig 1 :The above image shows the architecture of Lenet-5
 </p>
+
 The **pruning** process we implemented here is based on the the first stage(pruning) in the pipeline of the **Deep Compression** as described in this [paper](https://arxiv.org/pdf/1510.00149.pdf)
 
 **Pruning on (Conv+FC) layers:**
@@ -48,7 +50,7 @@ The **pruning** process we implemented here is based on the the first stage(prun
 
 **Model sizes:**
 <p align="center"> 
-<img src="https://github.com/satti007/Caffe-DeepCompression/blob/master/Deep_Compresssion/Plots/5.png">
+<img src="https://github.com/satti007/Caffe-DeepCompression/blob/master/Deep_Compresssion/Plots/6.png">
 </p>
 
 # U--Uncompressed
