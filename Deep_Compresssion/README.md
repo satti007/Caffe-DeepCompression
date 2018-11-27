@@ -22,7 +22,7 @@ The **pruning** process we implemented here is based on the the first stage(prun
 - So,we decided not prune the conv layers for this model.
 
 
-**Pruning on (Conv+FC) layers:**
+**Pruning on FC layers:**
 <p align="center"> 
 <img src="https://github.com/satti007/Caffe-DeepCompression/blob/master/Deep_Compresssion/Plots/2.png">
 </p>
